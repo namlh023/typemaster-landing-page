@@ -1,0 +1,37 @@
+:root {
+  --clr-orange: hsl(22, 89%, 52%);
+  --clr-light-orange: hsl(22, 100%, 69%);
+  --clr-dark-blue: hsl(220, 50%, 17%);
+  --clr-blue: hsl(221, 23%, 58%);
+  --clr-gray: hsl(198, 28%, 93%);
+  --clr-white: hsl(0, 0%, 100%);
+
+  --ff-primary: "Barlow", sans-serif;
+
+  --fs-text: 1rem;
+  --fs-h3: 1.5rem;
+  --fs-h2: 2rem;
+  --fs-h1: 3rem;
+
+  --lh-text: 1.625em;
+  --lh-h3: 1.17em;
+  --lh-h2: 1.17em;
+  --lh-h1: 1em;
+
+  --fw-500: 500;
+  --fw-900: 900;
+
+  --container-width: 1.5rem;
+  --br-primary: 0.5rem;
+  --br-image: 1.25rem;
+  --main-width: 90rem;
+
+  @media (min-width: 48em) {
+    --container-width: 2.5rem;
+  }
+
+  @media (min-width: 90em) {
+    --fs-h1: 3.5rem;
+    --container-width: 10.5rem;
+  }
+}
